@@ -1,3 +1,4 @@
+// Solution for Dynamic Connectivity problem
 function main() {
   // init idList arr - contains their connection
   // 2 nodes will be connected if they have the same ids
