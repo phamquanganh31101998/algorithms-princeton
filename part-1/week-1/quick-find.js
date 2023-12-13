@@ -8,6 +8,7 @@ function main() {
   }
 
   // check if 2 nodes is connected
+  // by checking their id in idList
   function isConnected(a, b) {
     if (a === b) return true
     return idList[a] === idList[b]
