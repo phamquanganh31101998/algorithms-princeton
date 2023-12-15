@@ -14,6 +14,8 @@ function main() {
 
   function findRoot(a) {
     while (a !== idList[a]) {
+      // path compression (but I'm not fully understand this)
+      idList[a] = idList[idList[a]]
       a = idList[a]
     }
     return a
